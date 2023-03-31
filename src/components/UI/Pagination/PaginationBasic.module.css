@@ -1,0 +1,7 @@
+
+
+@media (max-width: 480px) {
+    .pagination {
+        transform: scale(0.8)
+    }
+}

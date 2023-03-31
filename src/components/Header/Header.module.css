@@ -1,0 +1,41 @@
+.header {
+    width: 100vw;
+}
+
+
+.navbar {
+    background-image: url('../../images/menu_back.png');
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(20, 108, 26);
+    border-left: none;
+    border-right: none;
+}
+
+.navlink {
+    color: white;
+}
+
+.logo {
+    background-image: url('../../images/logo_back.png');
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .logo_container img {
+        transform: scale(0.7);
+    }
+}
